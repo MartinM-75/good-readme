@@ -1,32 +1,31 @@
 body {
+
+    background-color: skyblue;
     margin: 0%
 }
 
 h1 {
     text-align: center;
 }
+.nav-bar{
 
-ul {}    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: #333;
-    font-size: 1.5em;
+        font-size: 1.5em;
+    display:flex;
 }
 
 li {
     float: left;
 }
 
-li a {
+nav a {
     display: block;
-    color: white
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #e11D22;
+nav a:hover {
+    background-color: #e11D22;}
